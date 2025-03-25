@@ -1,1 +1,19 @@
 /* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+
+
+
+.nav-pills .nav-link.active {
+	color: #fff;
+	background-color: #450084 !important;
+}
+
+a {
+	color: mediumpurple;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+a:hover {
+	color: purple;
+	text-decoration: underline;
+}
