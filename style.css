@@ -1,11 +1,15 @@
 
 /* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
 
+body {
+	font-family: "Poppins";
+}
 
-
-.nav-pills .nav-link.active {
-	color: #fff;
-	background-color: #450084 !important;
+.nav-link {
+	color: #450084;
+	background-color: white !important;
+	margin: 20px;
+	padding-top: 30px;
 }
 
 a {
