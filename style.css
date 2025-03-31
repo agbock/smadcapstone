@@ -1,8 +1,10 @@
 
 /* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
 
+
 body {
 	font-family: "Poppins";
+background-color: #450084;
 }
 
 .nav-link {
@@ -11,6 +13,10 @@ body {
 	margin: 20px;
 	padding-top: 30px;
 }
+
+#nav {background-color: white;
+}
+
 
 a {
 	color: mediumpurple;
@@ -24,8 +30,38 @@ a:hover {
 }
 
 #myForm { 
+	padding-top: 50px;
 	max-width: 400px;
 border: 3px solid #f1f1f1;
-  padding: 10px;
   background-color: white;
-margin-top: 120px;}
+margin-top: 80px;
+margin-left: 575px;
+margin-bottom: 200px;
+padding-bottom: 150px;
+padding-right: 10px;
+padding-left: 20px;
+border-radius: 30px;
+box-shadow: 5px 5px 5px grey;
+}
+
+.btn { border-color: #450084;
+padding-right: 300px;
+text-align:justify;
+background-color: #450084;
+color: white;}
+
+input {border: none;
+	opacity: .5;
+text-decoration: underline;
+}
+
+	.fa {font-size: 35px;
+		padding: 15px;
+	}
+	.fa-facebook {color: #1877F2;
+		margin-left: 100px;
+	}
+	.fa-google {color: #EA4335;
+	}
+	.fa-linkedin {color: #0077B5;
+	}
